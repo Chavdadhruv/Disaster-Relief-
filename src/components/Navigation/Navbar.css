@@ -1,0 +1,31 @@
+/* src/components/Navigation/Navbar.css */
+
+.navbar-custom {
+    background: linear-gradient(135deg, #5b0e0e, #2c076b);
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  
+  .navbar-custom .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #d4d4d4;
+  }
+  
+  .navbar-custom .nav-dropdown-menu {
+    background-color: #511616c3;
+  }
+  
+  .navbar-custom .nav-dropdown-item {
+    color: #fff;
+  }
+  
+  .navbar-custom .nav-dropdown-item:hover {
+    background-color: #511616c3;
+  }
+  

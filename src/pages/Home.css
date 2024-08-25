@@ -1,0 +1,170 @@
+/* src/pages/Home.css */
+
+/* Hero Section */
+.home-background {
+    background: url('C:\Project_python_FSD\Group_project\disaster-management\src\pages\main3.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-lg {
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    margin: 0.5rem;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 4rem 1.5rem;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    padding: 4rem 1.5rem;
+    background-color: #e9ecef;
+  }
+  
+  .testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Newsletter Section */
+  .newsletter-section {
+    padding: 4rem 1.5rem;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .newsletter-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-section p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .newsletter-section .form-control {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .newsletter-section .btn {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .newsletter-section .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 4rem 1.5rem;
+    background-color: #f8f9fa;
+    background: linear-gradient(105deg, #b21e1e, #570ed4);
+
+  }
+  
+  .contact-card {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .features-section, .testimonials-section, .newsletter-section, .contact-section {
+      padding: 2rem 1rem;
+    }
+  }
+  
+
+
+.btn-hero {
+    margin: 0.5rem;
+  }
+  
+  .features-section,
+  .testimonials-section,
+  .newsletter-section,
+  .contact-section {
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-card,
+  .testimonial-card,
+  .contact-card {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-card img,
+  .testimonial-card img,
+  .contact-card img {
+    max-width: 100%;
+  }

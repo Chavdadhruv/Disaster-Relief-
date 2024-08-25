@@ -1,0 +1,35 @@
+/* src/pages/UserRegistration.css */
+
+.registration-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .registration-container .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  
+  .registration-container .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .registration-container .response-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #dc3545; /* Red color for error messages */
+  }
+  
+  /* Add more styles as needed */
+  

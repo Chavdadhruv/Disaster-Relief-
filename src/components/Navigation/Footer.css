@@ -1,0 +1,22 @@
+/* src/components/Navigation/Footer.css */
+
+.footer-custom {
+    background: linear-gradient(135deg, #5b0e0e, #2c076b);
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .footer-custom h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-custom p {
+    font-size: 1rem;
+  }
+  
+  .footer-custom .text-center {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+  
